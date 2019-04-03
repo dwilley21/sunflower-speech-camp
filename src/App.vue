@@ -46,5 +46,16 @@ export default {
 <style lang="less">
  @primary-color: #8B4513;
  @secondary-color:#FFFF33;
+ .subHeading{
+   display: flex; 
+   justify-content: center;
+   margin: 12px; 
+ }
+ .mainColor{
+   background-color: @primary-color
+ }
+ .secondaryColor{
+   background-color: @secondary
+ }
 </style>
 

@@ -1,7 +1,7 @@
 <template>
     <v-container>
         <div>
-            Events Works
+            <h1 class="subHeading">Events</h1>
         </div>
     </v-container>
 </template>
@@ -12,6 +12,6 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
 
 </style>

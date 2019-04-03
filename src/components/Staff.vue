@@ -1,6 +1,6 @@
 <template>
     <v-container>
-        <h1>Senior Staff</h1>
+        <h1 class="subHeading">Senior Staff</h1>
             <div class="staff-wrapper">
                 <v-card>
                  <v-card-title>Nicholas Owen</v-card-title> 
@@ -23,7 +23,7 @@
                     <v-card-text>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi velit minus quidem et nam possimus reprehenderit non nobis. Omnis nemo officia id! Esse, hic nesciunt cumque omnis voluptatum repellat id.</v-card-text>
                 </v-card>
             </div>
-        <h1>Junior Staff</h1>
+        <h1 class="subHeading mainColor">Junior Staff</h1>
                   <div class="staff-wrapper">
                 <v-card>
                  <v-card-title>Eli Beery</v-card-title> 
@@ -55,7 +55,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
 .staff-wrapper{
     display: flex;
     justify-content: space-between;

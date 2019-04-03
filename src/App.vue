@@ -41,7 +41,7 @@ export default {
       //
     }
   }
-}
+} 
 </script>
 <style lang="less">
  @primary-color: #8B4513;
@@ -52,10 +52,13 @@ export default {
    margin: 12px; 
  }
  .mainColor{
-   background-color: @primary-color
+   background-color: @primary-color;
  }
  .secondaryColor{
-   background-color: @secondary
+   background-color: @secondary-color;
  }
+#app{
+ background-color: @secondary-color; 
+ width: 100%;
+}
 </style>
-
